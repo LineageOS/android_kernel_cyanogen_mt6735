@@ -124,7 +124,7 @@ void toi_early_boot_message(int message_detail, int default_answer, char *warnin
 		say("BIG FAT WARNING!! %s", local_printf_buf);
 		switch (message_detail) {
 		case 0:
-			say("If you continue booting, note that any image WILL NOT BE REMOVED")
+			say("If you continue booting, note that any image WILL NOT BE REMOVED");
 			/* TuxOnIce is unable to do so because the appropriate modules aren't loaded.
 			 * You should manually remove the image to avoid any possibility of corrupting
 			 * your filesystem(s) later.
